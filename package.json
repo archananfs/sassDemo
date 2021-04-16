@@ -7,5 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archananfs/sassDemo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/archananfs/sassDemo/issues"
+  },
+  "homepage": "https://github.com/archananfs/sassDemo#readme"
 }
