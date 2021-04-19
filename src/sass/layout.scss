@@ -1,0 +1,87 @@
+@import "variables";
+$base-color: black !default;
+$base-text-color:white !default;
+$secondary-text-color: #818181 !default;
+$text-size: 22px !default;
+$heading-color:rgb(153, 13, 13)!default;
+$primary-bg-color:rgb(236, 223, 223) !default;
+$inf-color-primary: purple !default;
+
+
+h1{
+    color: $heading-color;
+    position: center;
+    text-align: center;
+    font-size: $text-size + 10px;
+}
+
+
+body {
+    font-family: "Lato", sans-serif;
+    background-color: $primary-bg-color;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: $base-color;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: $text-size;
+    color: $secondary-text-color;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: $base-text-color;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: $text-size - 4px;}
+  }
+
+  .container{
+    position : absolute;
+    top: 50%;
+    left: 50%;
+
+  }
+
+  .btn{
+
+    border: none;
+    color: $base-text-color;
+    padding: 14px 28px;
+    font-size: $text-size;
+    cursor: pointer;
+    text-align: center;
+    align-content: center;
+  }
+
+  .info{
+    position: center;
+    background-color: $base-color;
+    &:hover{
+      background: $inf-color-primary;
+    }
+  }
