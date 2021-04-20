@@ -1,8 +1,8 @@
 {
   "name": "sassforplay",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "demo project",
-  "main": "index.js",
+  "main": "src/sass/_main.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
