@@ -2,6 +2,8 @@
 @import "base/base_variable.scss";
 @import "base/base_layout.scss";
 @import "~tabulator-tables/src/scss/tabulator.scss";
+@import "~choices.js/src/styles/choices";
+@import "~js-datepicker/src/datepicker.scss";
 
 $base-color: black !default;
 $base-text-color:white !default;

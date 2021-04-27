@@ -1,6 +1,6 @@
 {
   "name": "sassforplay",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "demo project",
   "main": "src/sass/_main.scss",
   "style": "src/sass/_main.scss",
@@ -9,8 +9,10 @@
   },
   "devDependencies": {
     "node-sass": "5.0.0",
-    "tabulator-tables": "^4.9.3",
-    "typescript": "^4.2.4"
+    "typescript": "^4.2.4",
+    "tabulator-tables": "4.9.3",
+    "choices.js": "9.0.1",
+    "js-datepicker": "5.18.0"
   },
   "author": "",
   "license": "ISC",
