@@ -1,6 +1,6 @@
 {
   "name": "sassforplay",
-  "version": "1.2.5",
+  "version": "1.2.7",
   "description": "demo project",
   "main": "src/sass/_main.scss",
   "style": "src/sass/_main.scss",
@@ -8,11 +8,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "choices.js": "~7.0.0",
+    "js-datepicker": "5.18.0",
     "node-sass": "5.0.0",
-    "typescript": "^4.2.4",
     "tabulator-tables": "4.9.3",
-    "choices.js": "9.0.1",
-    "js-datepicker": "5.18.0"
+    "typescript": "^4.2.4"
   },
   "author": "",
   "license": "ISC",
